@@ -1,0 +1,189 @@
+(footprint "MY2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cb2c3a87-d305-48b0-b744-7d1822cb5715")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MY2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d25a0794-c915-42b6-b77b-16457558e012")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c39c72b3-5d80-4e94-8e90-0130a3852190")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57acb33d-ba73-4305-ac64-cb9aae17c5c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -10.6 -13.75)
+		(end 10.6 13.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "972c393f-9d48-4571-ab43-f6c3daa6b940")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e8948ca-bfc1-4c0f-b89c-a696b8277a85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 6.6 -9.15)
+		(size 5 3)
+		(drill oval 3.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "2686f7b4-2991-4b79-95db-b0751b63a80f")
+	)
+	(pad "4" thru_hole roundrect
+		(at -6.6 -9.15)
+		(size 5 3)
+		(drill oval 3.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "e9d42dc5-83d4-4989-a821-bd58e484706a")
+	)
+	(pad "5" thru_hole roundrect
+		(at 6.6 -5.05)
+		(size 5 3)
+		(drill oval 3.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "7ab8afcd-d381-408d-bcf3-010da989a96e")
+	)
+	(pad "8" thru_hole roundrect
+		(at -6.6 -5.05)
+		(size 5 3)
+		(drill oval 3.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "da1b6463-0ea7-4dd1-8479-bf3811786780")
+	)
+	(pad "9" thru_hole roundrect
+		(at 6.6 1.25)
+		(size 5 3)
+		(drill oval 3.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "2c72fd77-f45a-4c45-ab2e-dae32e0fdb48")
+	)
+	(pad "12" thru_hole roundrect
+		(at -6.6 1.25)
+		(size 5 3)
+		(drill oval 3.2 1)
+		(layers "*.Cu" "*.Mask" "Eco1.User")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "d406d711-93b5-4f38-b862-2d13f08b558f")
+	)
+	(pad "13" thru_hole roundrect
+		(at 6.6 7.55)
+		(size 5 3)
+		(drill oval 3.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "26b27049-909c-4579-8296-a43106bc7441")
+	)
+	(pad "14" thru_hole roundrect
+		(at -6.6 7.55)
+		(size 5 3)
+		(drill oval 3.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "82464c92-e1aa-48c3-8261-75ccfe8f2ace")
+	)
+	(embedded_fonts no)
+	(model "D:/платы kicad/002473000_3DFile.stp"
+		(hide yes)
+		(offset
+			(xyz 1 11.34 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+	(model "C:/Users/user/Downloads/MY2NJ DC24.STEP"
+		(hide yes)
+		(offset
+			(xyz 0 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+	(model "C:/Users/user/Downloads/MY2_STEP/MY2.step"
+		(offset
+			(xyz 0 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)

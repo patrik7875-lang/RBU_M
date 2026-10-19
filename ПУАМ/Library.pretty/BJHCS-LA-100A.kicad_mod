@@ -1,0 +1,359 @@
+(footprint "BJHCS-LA-100A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LEM Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/la_25-p.pdf)")
+	(tags "current transducer")
+	(property "Reference" "REF**"
+		(at -2.413 -7.767 0)
+		(layer "F.SilkS")
+		(uuid "fed6ef1f-97a1-488f-897e-6a4e08f0d728")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BJHCS-LA-100A"
+		(at 23 1 0)
+		(layer "F.Fab")
+		(uuid "6409c3a4-c47b-4a27-a49b-0753ea9f6428")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f72201f7-647c-409d-a89f-8e8093163dd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76886404-1484-421c-9a61-78ccf6de3dba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field4" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ae550d0c-1f53-44d3-a17a-9aa8b375fe53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.7 -6.92)
+		(end -4.7 -5.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f623a3b-a07b-4f8f-b5d4-7a51feb8a709")
+	)
+	(fp_line
+		(start -4.45 -6.67)
+		(end -4.45 7.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57a4cc83-2df8-462d-9a31-847edf539126")
+	)
+	(fp_line
+		(start -4.45 7.92)
+		(end 32.39 7.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "609dbe8d-a392-432a-89e8-7a893e062214")
+	)
+	(fp_line
+		(start -3 -6.92)
+		(end -4.7 -6.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8e1d346-d085-465a-bba4-939c49c57295")
+	)
+	(fp_line
+		(start 32.39 -6.67)
+		(end -4.45 -6.67)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26b993f4-8a00-4fbf-9f98-504c6e44adc4")
+	)
+	(fp_line
+		(start 32.39 7.92)
+		(end 32.39 -6.67)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d878f9ef-7cb5-417d-a211-737068d28f99")
+	)
+	(fp_line
+		(start -4.58 -6.8)
+		(end -4.58 8.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfeea929-bbd6-45ea-881f-d6809169555a")
+	)
+	(fp_line
+		(start -4.58 -6.8)
+		(end 32.52 -6.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc3f6d4a-5d93-4e0b-901c-cfa7ada1da39")
+	)
+	(fp_line
+		(start 32.52 8.05)
+		(end -4.58 8.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7cf76ac3-f7f5-4e5b-8992-43736b7f5679")
+	)
+	(fp_line
+		(start 32.52 8.05)
+		(end 32.52 -6.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c3d9a0b-1b98-478b-b648-950a5552fe56")
+	)
+	(fp_line
+		(start -4.33 -5.55)
+		(end -3.33 -6.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74accaf6-6ab3-4ff2-8e18-61c77ce008b2")
+	)
+	(fp_line
+		(start -4.33 7.8)
+		(end -4.33 -5.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8c01850-5752-45af-835f-2d187b286e5c")
+	)
+	(fp_line
+		(start -3.33 -6.55)
+		(end 32.27 -6.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aefa1b5b-cb03-4f9d-aa58-09cfd96667f4")
+	)
+	(fp_line
+		(start 10.16 1.25)
+		(end 13.97 6.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7b40d8a-7cd2-4730-9b8c-54e2e300feb7")
+	)
+	(fp_line
+		(start 12.7 -3.83)
+		(end 12.7 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19ee3a4f-d5c4-4114-aa91-20638f34ac6b")
+	)
+	(fp_line
+		(start 12.7 1.25)
+		(end 10.16 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59f87c2e-9c3d-454e-bd4f-2cfaebec3afb")
+	)
+	(fp_line
+		(start 13.97 6.33)
+		(end 17.78 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e62efd5-7532-47aa-adc4-53e89d91945e")
+	)
+	(fp_line
+		(start 15.24 -3.83)
+		(end 12.7 -3.83)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a02530f-4cde-4b4a-89de-5df7e14b6643")
+	)
+	(fp_line
+		(start 15.24 1.25)
+		(end 15.24 -3.83)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "474f923e-6528-41d7-b8d6-aa3b2e028241")
+	)
+	(fp_line
+		(start 17.78 1.25)
+		(end 15.24 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59f28fb4-3e45-464c-9d8a-d4657082a134")
+	)
+	(fp_line
+		(start 32.27 -6.55)
+		(end 32.27 7.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0342609a-1c25-470b-b6e2-a7803064c577")
+	)
+	(fp_line
+		(start 32.27 7.8)
+		(end -4.33 7.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b350cb7-49d1-4226-bd6f-9f8d172b412d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 23 -1 0)
+		(layer "F.Fab")
+		(uuid "536d37e3-87a0-487b-aa65-7ad7dc9674b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d40deec-6fe3-478d-8e7e-39de88397cd3")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "672f951e-fdf3-4878-92a8-02686cf6ae67")
+	)
+	(pad "3" thru_hole circle
+		(at 27.94 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "059a0450-10da-457a-9fab-74b8cd666ad3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_LA25-P.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "D:/платы kicad/LA 55-P--3DModel-STEP-510211.STEP"
+		(offset
+			(xyz 14 -0.5 0)
+		)
+		(scale
+			(xyz 1.0001 1.0001 1.0001)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "C:/diskD/платы kicad/LA 55-P--3DModel-STEP-510211.STEP"
+		(offset
+			(xyz 14 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

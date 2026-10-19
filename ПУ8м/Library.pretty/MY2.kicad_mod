@@ -1,0 +1,192 @@
+(footprint "MY2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.496519 -18.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8a99d496-155c-4420-a952-c49ae1cd76d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MY2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0b71460d-bad9-4165-964a-554d1c68c475")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c57f2c22-8bc8-4621-88de-a2d177f4e1fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Relay Miniature Omron DPDT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64ee10fc-b8fe-4865-8852-3b6d385c9fa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Relay*DPDT*Omron*G5V*")
+	(sheetname "/")
+	(sheetfile "плата управления пусковой установкой.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -10.6 -13.75)
+		(end 10.6 13.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7f842b7f-f23e-4ebc-8fcc-86f51f8cb526")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.413481 1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ad682a6a-d9ef-4c68-a98b-f03613e5791f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 6.6 -9.15)
+		(size 5 3)
+		(drill oval 2.9 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "823b7d34-9d14-4d42-ab54-5d5cd199aa23")
+	)
+	(pad "4" thru_hole roundrect
+		(at -6.6 -9.15)
+		(size 5 3)
+		(drill oval 2.9 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "c48f2b53-8e36-4d27-b6c9-7d2bbf166530")
+	)
+	(pad "5" thru_hole roundrect
+		(at 6.6 -5.05)
+		(size 5 3)
+		(drill oval 2.9 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "3c5eeadd-a8f6-4f04-bc14-4c66cd4462dc")
+	)
+	(pad "8" thru_hole roundrect
+		(at -6.6 -5.05)
+		(size 5 3)
+		(drill oval 2.9 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "adbac9ab-c933-443b-8a84-bff8d049affe")
+	)
+	(pad "9" thru_hole roundrect
+		(at 6.6 1.25)
+		(size 5 3)
+		(drill oval 2.9 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "b0ad2688-3c00-481d-9b5c-c33f5a42aedd")
+	)
+	(pad "12" thru_hole roundrect
+		(at -6.6 1.25)
+		(size 5 3)
+		(drill oval 2.9 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "6641cd80-630b-45dd-bbe9-b5d540556020")
+	)
+	(pad "13" thru_hole roundrect
+		(at 6.6 7.55)
+		(size 5 3)
+		(drill oval 2.9 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "6575421e-586f-4f59-ad65-96df4a4e2b3e")
+	)
+	(pad "14" thru_hole roundrect
+		(at -6.6 7.55)
+		(size 5 3)
+		(drill oval 2.9 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "1b55c261-02b3-4a13-a2f4-fcb1d129e912")
+	)
+	(embedded_fonts no)
+	(model "D:/платы kicad/002473000_3DFile.stp"
+		(hide yes)
+		(offset
+			(xyz 1 11.34 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+	(model "C:/Users/user/Downloads/MY2NJ DC24.STEP"
+		(hide yes)
+		(offset
+			(xyz 0 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+	(model "C:/Users/user/Downloads/MY2_STEP/MY2.step"
+		(offset
+			(xyz 0 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)

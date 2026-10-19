@@ -1,0 +1,125 @@
+(footprint "SSRH7H-M20016"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a10d6ee-de5c-41da-aaa7-f548320f7999")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SSRH7H-M20016"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "05d21fdc-85bc-47d7-b0d2-adf3f7e675f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec0d5f14-c76e-4e0f-88a7-993c23764158")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afaf68fa-6c26-4efb-832d-5d3ec5227904")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -9 -7.25)
+		(end 9 7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b74c0b04-7913-4fa0-8647-28da710a6c70")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "94ec8317-54cb-455d-8bf4-42a8436dd49b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 6.5 -5)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5bca2a2-d52c-4b90-b02a-e0e823d1a6e9")
+	)
+	(pad "2" thru_hole circle
+		(at 6.5 5)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "99ea6dd0-5bd8-42a8-80d8-c90eed702532")
+	)
+	(pad "3" thru_hole circle
+		(at -6.5 5)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05246f96-1a66-4e3d-bdb9-eae9f2ce668c")
+	)
+	(pad "4" thru_hole circle
+		(at -6.5 -5)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4d9a00b-7cec-43ed-ab73-fe444ab8489e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/user/Downloads/SSRH7H-M20016.step"
+		(offset
+			(xyz 10 -2 27.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
